@@ -67,8 +67,38 @@ ul li a:hover {
   background-color: #111;
 }       
 
+pre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: monospace;
+}
+
 /* reset */
 h1, h2, h3 {
   margin: 0;
   padding: 0;
+}
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
 }
