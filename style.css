@@ -77,6 +77,10 @@ code {
   font-family: monospace;
 }
 
+#tools h3 {
+  padding: 20px;
+}
+
 #about,
 #education {
   max-width: 500px;
