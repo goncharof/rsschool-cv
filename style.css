@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url('https://github.com/goncharof.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: lightgray;
+  background-blend-mode: soft-light;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+main {
+  padding: 20px;
+  margin: auto;
+  max-width: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer svg {
+  vertical-align: middle;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+pre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: monospace;
+}
+
+#tools h3 {
+  padding: 20px;
+}
+
+#about,
+#education {
+  max-width: 500px;
+  padding: 20px;
+  margin: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+  text-align: left;
+}
+
+#about p:first-letter {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+ul li a:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* reset */
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
